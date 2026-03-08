@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - SALES Analytics</title>
+    <link rel="stylesheet" href="../assets/css/main.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="../index.html" class="logo">SALES</a>
+        <ul>
+            <li><a href="../index.html" class="nav-link" onclick="setActive(this)">Home</a></li>
+            <li><a href="about.html" class="nav-link" onclick="setActive(this)">About</a></li>
+            <li><a href="dashboard.html" class="nav-link active" onclick="setActive(this)">DashBoard</a></li>
+            <li><a href="story.html" class="nav-link" onclick="setActive(this)">Story</a></li>
+            <li><a href="contact.html" class="nav-link" onclick="setActive(this)">Contact</a></li>
+        </ul>
+        <a href="contact.html" class="get-started-btn">Get Started</a>
+    </nav>
+
+    <!-- Dashboard Section -->
+    <section id="dashboard">
+        <span class="section-label">DASHBOARD</span>
+        <h2>Tableau Visualization</h2>
+        <div class="section-divider"></div>
+
+        <div class="dashboard-container">
+            <!-- Tableau Embedding Code -->
+            <div class='tableauPlaceholder' id='viz1772986459805' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;Dashboard_17729863985640&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'
+                    style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Dashboard_17729863985640&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;Dashboard_17729863985640&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>
+            <script type='text/javascript'>
+                var divElement = document.getElementById('viz1772986459805');
+                var vizElement = divElement.getElementsByTagName('object')[0];
+                if (divElement.offsetWidth > 800) {
+                    vizElement.style.width = '1200px';
+                    vizElement.style.height = '827px';
+                } else if (divElement.offsetWidth > 500) {
+                    vizElement.style.width = '1200px';
+                    vizElement.style.height = '827px';
+                } else {
+                    vizElement.style.width = '100%';
+                    vizElement.style.height = '1627px';
+                }
+                var scriptElement = document.createElement('script');
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);
+            </script>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 SALES Analytics Team. All rights reserved.</p>
+    </footer>
+
+    <script src="../assets/js/script.js"></script>
+</body>
+
+</html>
